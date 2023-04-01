@@ -7,11 +7,11 @@ main(){
 	//int tamanio=0,suma=0,promedio=0;
 	//ARREGLO DE CHAR
 	
-	string semana[7]={"lunes","Martes","Miercoles","Jueves","Viernes"};
+	//string semana[7]={"lunes","Martes","Miercoles","Jueves","Viernes"};
 	
-	for (int i=0;i<7;i++){
+	/*for (int i=0;i<7;i++){
 		cout<<semana[i]<<endl;
-	}
+	}*/
 	
 	/*string nombre;
 	int dato;
@@ -24,13 +24,13 @@ main(){
 	cout<<nombre<<endl;*/
 	
 	
-	/*char nombre[30];
+    char nombre[50];
 	cout<<"Ingrese Nombre Completo: ";
-	//cin>>nombre;
-	cin.get(nombre,30);
-	cout<<nombre<<endl;*/
-   
-    /*//ARREGLOS DE ENTEROS
+	cin>>nombre;
+	cin.getline(nombre,50);
+	cout<<nombre<<endl;
+	
+    //ARREGLOS DE ENTEROS
 	int tam=0,suma=0,promedio=0;
 	int notas[tam];
 	char res;
@@ -47,12 +47,12 @@ main(){
 		suma+=notas[i];
 	}
 	promedio = suma/tam;
-	cout<<"El promedio es: "<<promedio<<endl;*/
+	cout<<"El promedio es: "<<promedio<<endl;
 	
 	
 	//ejemplo 3
-	/*
-	int tam=0,suma=0,promedio=0;
+	
+	/*int tamanio=0,suma=0,promedio=0;
 	cout<<"cuantas notas desea ingresar: "<<endl;
 	cin>>tamanio; //5
 	int notas[tamanio];

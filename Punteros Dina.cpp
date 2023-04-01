@@ -72,6 +72,8 @@ main (){
 	 		cout<<"Nota:"<<ii<<":";
 	 		cin>>*(*(pm_notas+i)+ii);
 	 		
+	
+	 		
 		 }
 		 cout<<"__________________"<<endl;
 	 }
